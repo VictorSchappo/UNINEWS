@@ -35,8 +35,10 @@ O objetivo é criar um website de notícias da **UNIVILLE** (seguimento escolhid
 - 
 - 
 - 
-- 
+-
 
+---
+  
 ## 👩‍💻 Equipe
 - Victor Schappo –
 - Henrique Gorges Bittencourt –

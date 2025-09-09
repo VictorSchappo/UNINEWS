@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer {
+    background-color: #90d437;
+    color: #ffffff;
+    padding: 20px 40px;
+    position: relative;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    border-top: 10px solid #2d8930;
+    box-sizing: border-box;
+}
+
+.footer-icon {
+  align-items: left;
+  position: relative;
+}
+
+.footer-text {
+    text-align: left;
+}
+
+.footer-sobre {
+    text-align: center;
+}
+
+.footer-contato {
+   text-align: center;
+}
+
+.footer-email {
+    color:#ffffff
+}
+
+
+.footer-redes {
+   text-align: center;
+}
+
+.footer-uninews {
+    text-align: left;
+}

@@ -7,13 +7,13 @@ body {
 header {
     background-color: #90d437; 
     display: flex;
-    justify-content: space-between; 
     align-items: center;
     padding: 10px 20px;
 }
 /*Logo do menu*/
 .menu {
-    height: 30px; 
+    height: 30px;
+    margin-right: 15px;
 }
 /*Logo do Trabalho */
 .logo {

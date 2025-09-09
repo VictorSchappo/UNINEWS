@@ -19,21 +19,6 @@ body {
     margin: 0 auto;
 }
 
-/* ===== HEADER ===== */
-header {
-    background-color: #90d437; /* Verde Univille */
-    color: #000000;
-    padding: 0;
-    border-bottom: 10px solid #2d8930;
-    
-}
-
-header .logo {
-    font-size: 28px;
-    font-weight: bold;
-    margin: 0;
-}
-
 /* ===== MENU ===== */
 nav ul.menu {
     list-style: none;
@@ -54,6 +39,7 @@ nav ul.menu li a:hover {
     background: #2d8930;
     border-radius: 4px;
 }
+
 
 /* ===== MAIN ===== */
 main h2 {

@@ -1,0 +1,76 @@
+:root {
+    --verde-claro: #c1ff72;
+    --verde-faixa: #90d437; 
+    --verde-escuro:#2d8930;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  }
+  
+  #toggle {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  .btn {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    width: 44px;
+    height: 36px;
+    display: grid;
+    place-content: center;
+    gap: 6px;
+    padding: 6px;
+    border-radius: 8px;
+    background: #eaffea;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  .btn i {
+    display: block;
+    width: 36px;
+    height: 6px;
+    border-radius: 4px;
+    background: var(--verde-escuro);
+    margin-bottom: 4px
+  }
+  
+  nav {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: 260px;
+    max-width: 700px;
+    background: var(--verde-claro);
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    z-index: 1000;
+    padding: 86px 24px 24px;
+  }
+  nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 74px;
+    background: var(--verde-faixa);
+  }
+  nav a {
+    display: block;
+    color: var(--verde-escuro);
+    text-decoration: none;
+    font-weight: 800;
+    padding: 14px 0;
+    border-bottom: 2px solid #0006;
+  }
+  
+  #toggle:checked ~ nav {
+    transform: none;
+  }
+  

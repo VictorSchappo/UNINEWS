@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #90d437; 
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+/*Logo do menu*/
+.menu {
+    height: 30px;
+    margin-right: 15px;
+}
+/*Logo do Trabalho */
+.logo {
+    height: 150px;
+}

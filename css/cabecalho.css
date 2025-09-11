@@ -9,13 +9,10 @@ header {
     display: flex;
     align-items: center;
     padding: 15px 30px;
-}
-/*Logo do menu*/
-.menu {
-    height:60px;
-    margin-right: 15px;
+
 }
 /*Logo do Trabalho */
 .logo {
     height: 40px;
+    margin-left: 35px;
 }

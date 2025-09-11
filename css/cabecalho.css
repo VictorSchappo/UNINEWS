@@ -5,14 +5,14 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #90d437; 
+    background-color: #90d437;
     display: flex;
     align-items: center;
-    padding: 15px 30px;
-
+    padding: 15px 90px;
+    justify-content: space-between; /* Novo: Centraliza os elementos e os espaça */
 }
 /*Logo do Trabalho */
 .logo {
     height: 40px;
-    margin-left: 35px;
+    width: 160px;
 }

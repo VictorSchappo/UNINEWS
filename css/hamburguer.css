@@ -28,7 +28,7 @@
     gap: 6px;
     padding: 6px;
     border-radius: 8px;
-    background: #eaffea;
+    background: #90d437;
     cursor: pointer;
     z-index: 1001;
   }
@@ -58,7 +58,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 74px;
+    height: 70px;
     background: var(--verde-faixa);
   }
   nav a {

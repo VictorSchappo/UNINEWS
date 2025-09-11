@@ -32,15 +32,14 @@ O objetivo é criar um website de notícias da **UNIVILLE** (seguimento escolhid
 
 ## 🚀 Funcionalidades
 - Navegação entre páginas do site
-- 
-- 
-- 
--
+- **Menu responsivo** com ícone de hambúrguer.
+- **Visualização de notícias** em um formato de cards.
+- **Rodapé com informações de contato e redes sociais.**
 
 ---
   
 ## 👩‍💻 Equipe
-- Victor Schappo –
+- Victor Schappo – Líder da Equipe / Criação página `contatos.html` / Tester / Correções Adicionais
 - Henrique Gorges Bittencourt –
 - Henrique de Souza Melo –
 - Ayme
@@ -54,5 +53,24 @@ O objetivo é criar um website de notícias da **UNIVILLE** (seguimento escolhid
 ---
 
 ## 📖 Como Executar
+
+Para rodar este projeto em sua máquina local, siga os passos abaixo:
+
+1.  **Clone o repositório:**
+    Abra o terminal ou prompt de comando e execute:
+    ```bash
+    git clone https://github.com/VictorSchappo/UNINEWS.git
+    ```
+    Ou apenas abra o terminal GitBash no seu Explorador de Arquivos e execute o comando:
+    ```
+    git clone https://github.com/VictorSchappo/UNINEWS.git
+
+3.  **Navegue até a pasta do projeto:**
+    
+
+4.  **Abra o arquivo no navegador:**
+    Simplesmente abra o arquivo `index.html` em seu navegador de preferência.
+
+
 
 

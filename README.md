@@ -39,38 +39,89 @@ O objetivo é criar um website de notícias da **UNIVILLE** (seguimento escolhid
 ---
   
 ## 👩‍💻 Equipe
-- Victor Schappo – Líder da Equipe / Criação página `contatos.html` / Tester / Correções Adicionais
-- Henrique Gorges Bittencourt –
-- Henrique de Souza Melo –
-- Ayme
-- Mariana
-- Maria Luiza
-- Igor
-- Asafe
-- Matheus Nycolas Maiola
-- Vinicyus Cesar
+- Victor Schappo – Líder da Equipe / Criação página `contatos.html` / Integrabilidade / Tester / Correções Adicionais
+- **Henrique Gorges Bittencourt** – Rodapé tema normal/escuro
+- **Henrique de Souza Melo** – Cabeçalho
+- **Ayme** – Documentação e carrossel
+- **Mariana** – Criação de conteúdo e design
+- **Maria Luiza** – Página Home
+- **Igor** – Página eventos
+- **Asafe** – Menu hambúrguer
+- **Matheus Nycolas Maiola** – Página notícias Atlética
+- **Vinicyus Cesar** – Página Sobre
 
 ---
 
 ## 📖 Como Executar
 
-Para rodar este projeto em sua máquina local, siga os passos abaixo:
 
-1.  **Clone o repositório:**
-    Abra o terminal ou prompt de comando e execute:
-    ```bash
-    git clone https://github.com/VictorSchappo/UNINEWS.git
-    ```
-    Ou apenas abra o terminal GitBash no seu Explorador de Arquivos e execute o comando:
-    ```
-    git clone https://github.com/VictorSchappo/UNINEWS.git
-
-3.  **Navegue até a pasta do projeto:**
-    
-
-4.  **Abra o arquivo no navegador:**
-    Simplesmente abra o arquivo `index.html` em seu navegador de preferência.
+### 1️⃣ Escolher a Pasta onde Salvar o Projeto
+No terminal, navegue até a pasta onde quer guardar o projeto. Por exemplo:
+```bash
+cd C:\Users\SeuUsuario\Documents\Projetos
+```
+> `cd` = "change directory" → entrar na pasta que você escolheu.
 
 
+- Se a pasta não existir, crie antes pelo Explorer ou usando:
+```bash
+mkdir Projetos
+cd Projetos
+```
 
 
+### 2️⃣ Clonar o Repositório do GitHub
+```bash
+git clone https://github.com/VictorSchappo/UNINEWS.git
+```
+- Isso cria uma pasta chamada `UNINEWS` com todos os arquivos do site.
+
+
+### 3️⃣ Entrar na Pasta do Projeto
+```bash
+cd UNINEWS
+```
+- Agora você está **dentro da pasta do UniNews**, pronto para trabalhar.
+
+
+### 4️⃣ Verificar Arquivos Modificados
+```bash
+git status
+```
+- Mostra arquivos modificados ou novos, que precisam ser adicionados antes do commit.
+
+
+### 5️⃣ Adicionar Arquivos para Salvar Mudanças
+```bash
+git add .
+```
+- O ponto `.` adiciona **todas as alterações da pasta**.
+- Pode adicionar apenas um arquivo específico: `git add index.html`.
+
+
+### 6️⃣ Criar um Commit
+```bash
+git commit -m "Descreva aqui as alterações que você fez"
+```
+- Mensagens claras, ex: "Atualizei layout da página inicial".
+
+
+### 7️⃣ Enviar Alterações para o GitHub
+```bash
+git push origin main
+```
+- `origin` = repositório remoto, `main` = branch principal (use outra se necessário).
+
+
+### 8️⃣ Criar e Alternar para uma Branch Nova (Opcional)
+```bash
+git checkout -b minha-nova-branch
+```
+- Cria uma branch nova e já muda para ela.
+
+
+### 9️⃣ Puxar Atualizações do GitHub
+```bash
+git pull
+```
+- Traz alterações feitas por outras pessoas, evitando conflitos.

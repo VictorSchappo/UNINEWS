@@ -6,42 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <style>
-    .conteudo-central {
-      width: 900px;      /* ou 860px, depende do tamanho EXATO do banner */
-      margin: 0 auto;    /* centraliza na tela */
-    }
-
-    .banner {
-      width: 100%;       /* ocupa toda a largura do .conteudo-central */
-      display: block;
-    }
-
-    #carouselExampleControls {
-      width: 100%;       /* segue exatamente a largura do container */
-      margin-top: 100px; /* aumentei o espaço em cima para empurrar o carrossel pra baixo */
-    }
-
-    /* Garante que todas as imagens tenham mesmo tamanho */
-    #carouselExampleControls img {
-      width: 100%;
-      height: 200px;     /* ajuste a altura como preferir */
-      object-fit: cover; /* corta a imagem proporcionalmente */
-    }
-  </style>
+  <!-- CSS do carrossel -->
+  <link rel="stylesheet" href="css/carrossel.css">
 </head>
 <body>
 
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://www.univille.edu.br/images/602264/881921-c46fae8fd6591d69ded4dc22e532f9da.png" alt="Primeiro Slide">
+        <img src="pngs/carrosel1.jpeg" alt="Primeiro Slide">
       </div>
       <div class="carousel-item">
-        <img src="https://www.univille.edu.br/community/novoportal/VirtualDisk.html/downloadDirect/4134297/0001_-_Univille_60_anos_-_banner_site_60_Historias.png" alt="Segundo Slide">
+        <img src="pngs/carrossel2.jpeg" alt="Segundo Slide">
       </div>
       <div class="carousel-item">
-        <img src="https://www.univille.edu.br/community/novoportal/VirtualDisk.html/downloadDirect/4088814/0046_-_Bolsa_PUG_-_Banner_site_1.png" alt="Terceiro Slide">
+        <img src="pngs/carrossel3.jpeg" alt="Terceiro Slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

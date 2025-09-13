@@ -4,16 +4,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Menu Hamburguer</title>
+  <!-- Importa o CSS com o estilo do menu -->
   <link rel="stylesheet" href="hamburguer.css" />
 </head>
 <body>
 
+  /*Checkbox "escondido" que controla se o menu está aberto ou fechado */
   <input id="toggle" type="checkbox" />
   
+  /* Botão do menu (3 barrinhas) que ativa/desativa o checkbox */
   <label class="btn" for="toggle" aria-label="Abrir/fechar menu">
-    <i> </i><i> </i><i> </i>
+    <i> </i><i> </i><i> </i> <!-- As 3 linhas do ícone de menu -->
   </label>
 
+  /* Menu lateral com os links de navegação */
   <nav>
     <a href="#">HOME</a>
     <a href="#">DESTAQUES</a>
@@ -22,6 +26,11 @@
     <a href="#">SOBRE</a>
     <a href="#">CONTATO</a>
   </nav>
-
+  /* Cabeçalho com o logo */
+  <header>
+        <a href="index.html">
+            <img src="pngs/Logo.png" alt="logo" class="logo" alt="home page">
+        </a>
+    </header>
 </body>
 </html>

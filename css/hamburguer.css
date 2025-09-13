@@ -1,23 +1,29 @@
+/* VARIÁVEIS GLOBAIS (CORES)*/
 :root {
-    --verde-claro: #c1ff72;
-    --verde-faixa: #90d437; 
-    --verde-escuro:#2d8930;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
+    --verde-claro: #c1ff72;   /* Cor de fundo principal do menu lateral */
+    --verde-faixa: #90d437;   /* Cor da faixa superior do menu */
+    --verde-escuro: #2d8930;  /* Cor dos botões e textos */
+}
+
+
+* {
+    box-sizing: border-box; /* Inclui bordas e padding no cálculo do tamanho dos elementos */
+}
+
+body {
+    margin: 0; /* Remove margens padrão do navegador */
     font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  }
-  
-  #toggle {
+    /* Define a família de fontes para o texto da página */
+}
+
+/*INPUT TOGGLE (CHECKBOX)*/
+#toggle {
     position: absolute;
-    left: -9999px;
-  }
-  
-  .btn {
+    left: -9999px; /* Esconde o checkbox visualmente, mantendo funcionalidade */
+}
+
+/* BOTÃO DE ABRIR MENU (HAMBURGER)*/
+.btn {
     position: fixed;
     top: 16px;
     left: 16px;
@@ -28,31 +34,36 @@
     gap: 6px;
     padding: 6px;
     border-radius: 8px;
-    background: #90d437;
+    background: #90d43700; /* Cor de fundo do botão */
     cursor: pointer;
-    z-index: 1001;
-  }
-  .btn i {
+    z-index: 1001; /* Garante que fique acima do menu */
+}
+
+/* Linhas do ícone "hamburger" (3 barras) */
+.btn i {
     display: block;
     width: 36px;
     height: 6px;
     border-radius: 4px;
-    background: var(--verde-escuro);
-    margin-bottom: 4px
-  }
-  
-  nav {
+    background: var(--verde-escuro); /* Cor das barras */
+    margin-bottom: 4px; /* Espaçamento entre as barras */
+}
+
+/* MENU LATERAL (NAV)*/
+nav {
     position: fixed;
-    inset: 0 auto 0 0;
+    inset: 0 auto 0 0; /* Fixa no lado esquerdo da tela */
     width: 260px;
     max-width: 700px;
-    background: var(--verde-claro);
-    transform: translateX(-100%);
-    transition: transform 0.25s ease;
+    background: var(--verde-claro); /* Cor de fundo do menu */
+    transform: translateX(-100%); /* Esconde o menu para fora da tela (lado esquerdo) */
+    transition: transform 0.25s ease; /* Animação suave ao abrir/fechar */
     z-index: 1000;
-    padding: 86px 24px 24px;
-  }
-  nav::before {
+    padding: 86px 24px 24px; /* Espaçamento interno, respeitando altura da faixa superior */
+}
+
+/* Faixa superior colorida dentro do menu */
+nav::before {
     content: "";
     position: absolute;
     top: 0;
@@ -60,17 +71,21 @@
     right: 0;
     height: 70px;
     background: var(--verde-faixa);
-  }
-  nav a {
+}
+
+/* Links do menu */
+nav a {
     display: block;
-    color: var(--verde-escuro);
-    text-decoration: none;
-    font-weight: 800;
-    padding: 14px 0;
-    border-bottom: 2px solid #0006;
-  }
-  
-  #toggle:checked ~ nav {
+    color: var(--verde-escuro); /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: 800; /* Deixa o texto em negrito */
+    padding: 14px 0; /* Espaçamento entre links */
+    border-bottom: 2px solid #0006; /* Linha divisória semitransparente */
+}
+
+/* ESTADO ATIVO DO MENU*/
+/* Quando o checkbox está marcado (#toggle:checked),
+   o menu lateral aparece na tela */
+#toggle:checked ~ nav {
     transform: none;
-  }
-  
+}

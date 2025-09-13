@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'jaro', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
@@ -17,6 +17,10 @@ body {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
+}
+
+.titulo-contato {
+    font-family: 'jaro', sans-serif;
 }
 
 /* ===== MENU ===== */
@@ -32,7 +36,7 @@ nav ul.menu li a {
     text-decoration: none;
     font-weight: 500;
     padding: 5px 10px;
-    transition: background 0.3s;
+    transition: background 0.3;
 }
 
 nav ul.menu li a:hover {
@@ -49,7 +53,14 @@ main h2 {
     padding-bottom: 5px;
 }
 
-.contato-form, 
+.contato-form{
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-family: 'jaro', sans-serif;
+} 
 .contato-info {
     background: #fff;
     padding: 20px;
@@ -92,6 +103,10 @@ button {
     transition: background 0.3s;
 }
 
+.botao-enviar {
+    font-family: 'jaro', sans-serif;
+}
+
 button:hover {
     background: #2d8930;
 }
@@ -104,4 +119,8 @@ button:hover {
 
 .contato-info p {
     margin: 5px 0;
+}
+
+.titulo-info {
+    font-family: 'jaro', sans-serif;
 }

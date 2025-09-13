@@ -10,6 +10,9 @@ body {
 h2 {
   color: #2d8930;
   margin: 20px 0;
+  font-family: 'jaro', sans-serif;
+  font-size: 60px;
+  
 }
 
 /* Container dos cards */
@@ -59,7 +62,8 @@ h2 {
   font-weight: bold;
   color: #6ecf3a;
   margin-bottom: 10px;
-  font-size: 13px; /* menor */
+  font-size: 20px; /* menor */
+  font-family: 'jaro', sans-serif;
 }
 
 /* Texto do card */
@@ -69,4 +73,3 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
